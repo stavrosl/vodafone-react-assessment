@@ -22,5 +22,5 @@ The documentation is divided into several sections:
 * [Where to Get Support](https://reactjs.org/community/support.html)
 * [Contributing Guide](https://reactjs.org/docs/how-to-contribute.html)
 
-# <img src="/webstorm_logo_300x300.png" width="100" height="50">[React](https://reactjs.org/) 
+# <img src="/webstorm_logo_300x300.png" width="100" height="80">[React](https://reactjs.org/) 
 React is a JavaScript library for building user interfaces.
