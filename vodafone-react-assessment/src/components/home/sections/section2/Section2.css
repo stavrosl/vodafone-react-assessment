@@ -1,0 +1,164 @@
+.section2-container {
+    position: relative;
+    width: 1200px;
+    height: 300px;
+    margin-top: 120px;
+    margin-left: 400px;
+    margin-bottom: 200px;
+}
+
+.section2-container .statistics {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    float: left;
+    box-sizing: border-box;
+    overflow: hidden;
+    background: #D3D3D3;
+    transition: 0.5s;
+}
+
+.section2-container .statistics .skills label,
+.section2-container .validate label{
+    color: #303030;
+}
+
+.section2-container .validate {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background: #D3D3D3;
+    float: left;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.bar1 {
+    background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+    display: block;
+    height: 2px;
+    border-radius: 3px;
+    overflow: hidden;
+    width: 60%;
+    margin-left: 5px;
+}
+
+.bullet1 {
+    position: absolute;
+    top: 32%;
+    left: 59%;
+    font-size: 32px;
+    color: #f5576c;
+    list-style: initial;
+}
+
+.bar2 {
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+    display: block;
+    height: 2px;
+    border-radius: 3px;
+    overflow: hidden;
+    width: 30%;
+    margin-left: 5px;
+}
+
+.bullet2 {
+    position: absolute;
+    top: 47%;
+    left: 30%;
+    font-size: 32px;
+    color: #fee140;
+    list-style: initial;
+}
+
+.bar3 {
+    background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+    display: block;
+    height: 2px;
+    border-radius: 3px;
+    overflow: hidden;
+    width: 30%;
+    margin-left: 5px;
+}
+
+.bullet3 {
+    position: absolute;
+    top: 62%;
+    left: 30%;
+    font-size: 32px;
+    color: #009efd;
+    list-style: initial;
+}
+
+.bar4 {
+    background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+    display: block;
+    height: 2px;
+    border-radius: 3px;
+    overflow: hidden;
+    width: 80%;
+    margin-left: 5px;
+}
+
+.bullet4 {
+    position: absolute;
+    top: 77%;
+    left: 80%;
+    font-size: 32px;
+    color: #3cba92;
+    list-style: initial;
+}
+
+input[class=phone], input[class=email], input[class=password] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 10px 40px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[class=submit] {
+    width: 50%;
+    background-color: dodgerblue;
+    color: white;
+    padding: 14px 20px;
+    margin: 10px 90px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: cornflowerblue;
+}
+
+/*Media Queries */
+
+@media screen and (max-width: 1400px) {
+    .section2-container {
+        position: relative;
+        width: 1000px;
+        height: 200px;
+        margin: 80px 100px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .section2-container {
+        position: relative;
+        width: 700px;
+        height: 200px;
+        margin: 80px 250px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .section2-container {
+        position: relative;
+        width: 700px;
+        height: 200px;
+        margin: 80px 50px;
+    }
+}

@@ -1,0 +1,73 @@
+.sections {
+    float: right;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 15%;
+    margin-right: 15%;
+}
+
+.sections label {
+    color: #303030;
+}
+
+.sections label:hover {
+    cursor: pointer;
+}
+
+.activeSection1{
+    position: absolute;
+    left: 74%;
+    color: #32CD32;
+    list-style: initial;
+}
+
+.activeSection2{
+    position: absolute;
+    left: 81%;
+    color: #32CD32;
+    list-style: initial;
+}
+
+@media  screen and (max-width: 1050px) {
+    .sections {
+        width: 17%;
+    }
+
+    .activeSection1 {
+        top: 18%;
+    }
+
+    .activeSection2 {
+        top: 18%;
+    }
+}
+
+@media  screen and (max-width: 1000px) {
+
+    .activeSection1 {
+        left: 72%;
+    }
+
+    .activeSection2 {
+        left: 80%;
+    }
+}
+
+@media  screen and (max-width: 900px) {
+    .sections {
+        margin-top: 2%;
+        margin-right: 1%;
+        width: 30%;
+    }
+
+    .activeSection1 {
+        top: 19%;
+        left: 76%;
+    }
+
+    .activeSection2 {
+        top: 19%;
+        left: 90%;
+    }
+}
