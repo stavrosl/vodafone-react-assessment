@@ -22,7 +22,4 @@ The documentation is divided into several sections:
 * [Where to Get Support](https://reactjs.org/community/support.html)
 * [Contributing Guide](https://reactjs.org/docs/how-to-contribute.html)
 
-## Project Description
 
-The main purpose of this project is the creation and management of tickets for theatres and/or cinemas.
-The FrontEnd part of application implemented with React.js
