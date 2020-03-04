@@ -24,3 +24,4 @@ The documentation is divided into several sections:
 
 # <img src="/webstorm_logo_300x300.png" width="100" height="80"> [WebStorm](https://www.jetbrains.com/webstorm/) 
 
+This project has been implemented by using WebStorm IDE (version 2019.3.3)
